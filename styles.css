@@ -1,0 +1,51 @@
+:root{
+    --color-1: #fff;
+    --color-2: #222;
+    --color-3: #cccbcb;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--color-1);
+    background-color: black;
+}
+
+#marco img {
+    max-width: 100%;  
+    object-fit: contain; 
+}
+
+#marco iframe{
+    max-width: 100%;  
+    max-height: 300px;
+    object-fit: contain; 
+
+}
+#donde{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#donde img{
+    height: 60px;
+}
+footer{
+    background-color: #222;
+    color: #757575;
+    text-align: center;
+    height: 50px;
+    align-items: center;
+}
+
