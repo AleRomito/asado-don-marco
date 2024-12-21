@@ -8,7 +8,7 @@ const interval = setInterval(() => {
 
     if (timeLeft <= 0) {
         clearInterval(interval);
-        document.getElementById("countdown").innerHTML = "¡Feliz Año Nuevo!";
+        document.getElementById("countdown").innerHTML = "¡Feliz Asado!";
         return;
     }
 
